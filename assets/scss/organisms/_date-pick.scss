@@ -1,0 +1,21 @@
+.cd-date {
+    border: 1px solid lightgray;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 0px 0px 20px 0px;
+    width: 100%;
+
+    .cd-input {
+        margin-bottom: 0;
+
+        input {
+            width: 70%;
+            margin-bottom: 5px;
+        }
+    }
+
+    .cd-title {
+        margin-bottom: 10px;
+    }
+}

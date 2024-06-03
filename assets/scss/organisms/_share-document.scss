@@ -1,0 +1,41 @@
+.cd-share {
+
+
+    .cd-drop {
+        width: 30%;
+    }
+
+    .dropdown {
+        margin-top: 0;
+    }
+
+    .cd-input {
+        display: flex;
+        justify-content: space-between;
+        gap: 15px;
+        border-bottom: 1px solid rgb(240, 240, 240);
+        margin-bottom: 20px;
+        padding-bottom: 5px;
+
+    }
+
+    .cd-btn__blk {
+        width: 40%;
+        padding: 7px 10px;
+        margin-bottom: 15px;
+        background-color: rgb(240, 240, 240);
+        color: black;
+
+        &:hover {
+            background-color: lightgray;
+        }
+    }
+}
+
+@include mobile {
+    .cd-share {
+        .cd-btn__blk {
+            width: 50%;
+        }
+    }
+}

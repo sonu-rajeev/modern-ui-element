@@ -1,0 +1,35 @@
+.cd-card {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+
+
+    &__wrap {
+        width: calc(33% - 0px);
+    }
+}
+
+@include tablet-pro {
+    .cd-card {
+        flex-direction: column;
+
+        &__wrap {
+            width: calc(100% - 0px);
+        }
+    }
+}
+
+@include mobile-tablet {
+    .cd-card {
+        flex-direction: column;
+
+        &__wrap {
+            width: calc(100% - 0px);
+        }
+    }
+}

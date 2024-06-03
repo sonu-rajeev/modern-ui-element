@@ -1,0 +1,51 @@
+.cd-drop {
+    width: 100%;
+
+    .btn:focus {
+        box-shadow: none;
+    }
+
+    .btn {
+        border: 1px solid lightgray;
+        padding: 5px 10px;
+        width: 100%;
+        text-align: left;
+        display: flex;
+        font-size: 15px;
+        align-items: center;
+        justify-content: space-between;
+
+        &:hover {
+            background-color: rgb(245, 245, 245);
+        }
+    }
+
+    .dropdown-toggle::after {
+        display: none;
+    }
+
+    .dropdown {
+        margin-top: 10px;
+    }
+
+    .dropdown-menu {
+        inset: 5px auto auto 0px !important;
+        padding: 5px;
+        min-width: 0.7rem;
+    }
+
+    .dropdown-item:hover {
+        background-color: rgb(245, 245, 245);
+    }
+
+    .dropdown-item {
+        border-radius: 5px;
+        padding: 0.4rem 0.5rem;
+        font-size: 15px;
+    }
+
+    label {
+        font-weight: 500;
+        margin-bottom: 5px;
+    }
+}
